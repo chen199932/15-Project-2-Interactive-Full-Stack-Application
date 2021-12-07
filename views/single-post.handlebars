@@ -1,0 +1,14 @@
+{{> post-info post }}
+
+{{#if loggedIn}}
+<div>
+  <button type="button" class="upvote-btn btn btn-info">Vote</button>
+</div>
+</form>
+{{/if}}
+
+{{#if loggedIn}}
+<script src="/javascript/upvote.js"></script>
+{{/if}}
+
+<script src="/javascript/homepage.js"></script>
